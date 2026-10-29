@@ -1,25 +1,52 @@
+# DoorFactoryERP 🏭
 
-# MiniBizERP
+**A Manufacturing Management System for Door Factories**
 
-A lightweight ERP system designed to help small businesses manage their daily operations in one place.
+DoorFactoryERP is a web-based ERP project designed to help door manufacturing businesses manage orders, production processes, inventory, and deliveries in one centralized system.
 
-## Overview
+The project aims to simplify daily factory operations, improve inventory visibility, and make order and production tracking easier.
 
-MiniBizERP is a simple business management application focused on product management, inventory tracking, customer records, and order processing.
+## 🎯 Project Goals
 
-The goal of this project is to build a practical ERP solution while applying software development, database design, and REST API concepts.
+- Centralize customer orders and product information.
+- Track raw materials and inventory levels.
+- Monitor production stages and quantities.
+- Manage packaging and delivery processes.
+- Provide an overview of factory operations through a dashboard.
 
-## Features
+## ✨ Planned Features
 
-- Product management (Create, Read, Update, Delete)
-- Inventory and stock tracking
-- Customer management
-- Order management
-- Automatic stock updates when orders are processed
-- Dashboard with basic business statistics
-- Sales and inventory reports
+### 📋 Order Management
+- Create and manage customer orders.
+- Record door models, dimensions, and quantities.
+- Track order and delivery dates.
+- Monitor order statuses.
 
-## Tech Stack
+### 📦 Inventory Management
+- Manage raw materials and finished products.
+- Track stock movements.
+- Set minimum stock levels.
+- Identify materials that need replenishment.
+
+### ⚙️ Production Tracking
+- Create production records based on customer orders.
+- Track production stages and quantities.
+- Monitor production progress.
+- Connect material usage with production activities.
+
+### 🚚 Packaging and Delivery
+- Track completed products.
+- Manage packaging status.
+- Record shipment dates.
+- Monitor delivery status.
+
+### 📊 Dashboard and Reports
+- View pending and active orders.
+- Monitor production progress.
+- Identify low-stock materials.
+- Review completed orders and deliveries.
+
+## 🛠️ Tech Stack
 
 - **Backend:** C# and ASP.NET Core Web API
 - **Database:** PostgreSQL
@@ -27,25 +54,46 @@ The goal of this project is to build a practical ERP solution while applying sof
 - **Frontend:** React / Next.js
 - **Version Control:** Git and GitHub
 
-## Project Status
+*The technology stack and planned features may evolve during development.*
 
-🚧 In Development
+## 🗺️ Development Roadmap
 
-Features will be implemented step by step, starting with the core product and inventory management modules.
+- [ ] Project setup and database connection
+- [ ] Database schema and entity relationships
+- [ ] Product and inventory management
+- [ ] Customer and order management
+- [ ] Production tracking
+- [ ] Packaging and delivery management
+- [ ] Dashboard and reporting
+- [ ] Validation, testing, and error handling
+- [ ] Deployment and documentation
 
-## Getting Started
+## 🎓 Learning Objectives
 
-Setup instructions will be added as the project develops.
+This project is also an opportunity to practice:
 
-## Learning Goals
+- RESTful API development
+- Relational database design
+- CRUD operations
+- Entity relationships and data integrity
+- Inventory and order workflow management
+- Git version control
+- Software architecture and testing
 
-- Build RESTful APIs
-- Design relational database schemas
-- Implement CRUD operations
-- Manage relationships between database entities
-- Apply clean code and basic software architecture principles
-- Use Git for version control
+## 🚧 Project Status
 
-## License
+**In Development**
 
-License not selected yet.
+DoorFactoryERP is being developed incrementally, starting with the core database structure, product management, and order workflows.
+
+## 🔮 Future Improvements
+
+- Role-based access control
+- Production planning and material requirements
+- Advanced reporting
+- Audit logs
+- Notifications for low stock and delayed orders
+
+## 📄 License
+
+No license has been selected yet.
